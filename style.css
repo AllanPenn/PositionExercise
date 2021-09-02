@@ -74,7 +74,7 @@ section {
 }
 
 /* START BELOW THIS LINE */
-/* position: auto; */
+/* position: static; */
 #power {
   position: relative;
   right: 225px;
@@ -106,5 +106,18 @@ section {
 h1 {
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 3000;
+}
+#reality {
+  z-index: 4;
+}
+#soul {
+  z-index: 2;
+}
+#time {
+  z-index: 3;
+}
+h2 {
+  position: sticky;
+  top: 65px;
 }
